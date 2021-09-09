@@ -11,11 +11,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
-    //해당 메소드의 리던되는 객체를 ioc로 등록된다
-    @Bean
-    public BCryptPasswordEncoder encodPwd() {
-        return new BCryptPasswordEncoder();
-    }
 
 
     @Override

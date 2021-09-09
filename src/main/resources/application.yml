@@ -26,11 +26,9 @@ spring:
       client:
         registration:
           google:
-            client-id: 948410441875-a6nnjdsu4ganicc981djrerpb9e70la8.apps.googleusercontent.com
-            client-secret:
+            clientId: 948410441875-a6nnjdsu4ganicc981djrerpb9e70la8.apps.googleusercontent.com
+            clientSecret: s5sI7Nvc7ljLcdM1axU65cTN
             scope:
-              -email
-              -profile
-
-
+              - email
+              - profile
 

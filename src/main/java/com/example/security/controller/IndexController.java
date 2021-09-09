@@ -27,7 +27,7 @@ public class IndexController {
 
     //localhost:8080
     //localhost:8080/
-    @GetMapping({"", "/"})
+    @GetMapping({""})
     public  String index() {
         return "index";
     }
