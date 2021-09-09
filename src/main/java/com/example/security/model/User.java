@@ -23,6 +23,7 @@ public class User {
     private String email;
     private String role; //ROLE_USER, ROLE_ADMIN
 
+    //private Timestamp loginDate; (휴면 계정을 이용할 시)
     @CreationTimestamp
     private Timestamp createDate;
 

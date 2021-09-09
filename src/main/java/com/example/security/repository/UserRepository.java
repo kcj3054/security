@@ -9,4 +9,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface UserRepository extends JpaRepository<User, Integer> {
 
 
+    //findBy는 규칙 -> Username은 문법
+    //select * from user where username = 1?
+    //?부분에 username이 들어온다
+    public User findByUsername(String username);
+
+    //이것은 jpa query methods
+    //select * from user where email= ?이 실행된다
+    //public User findByEmail();
 }
